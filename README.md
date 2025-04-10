@@ -62,6 +62,12 @@ uv add ruff --dev
 uv sync
 ```
 
+## requirements.txt 동기화
+
+```
+uv init && uv add -r requirements.txt
+```
+
 ## 실습 방법
 
 - ruff 오류 테스트:
